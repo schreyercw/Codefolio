@@ -5,7 +5,6 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UserSecretsId>7f117ab6-bbac-432e-b697-560537d89ccb</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,8 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="appsettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\Codefolio.Configuration\Codefolio.Configuration.csproj" />
   </ItemGroup>
+
 </Project>
