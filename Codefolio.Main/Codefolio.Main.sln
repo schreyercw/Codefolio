@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefolio.Configuration", "Codefolio.Configuration\Codefolio.Configuration.csproj", "{0F530971-D170-490A-8B9B-1F3EB852D8E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codefolio.Configuration", "Codefolio.Configuration\Codefolio.Configuration.csproj", "{0F530971-D170-490A-8B9B-1F3EB852D8E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9E081B33-5CC0-4B6A-94B0-5C446C5856F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E081B33-5CC0-4B6A-94B0-5C446C5856F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E081B33-5CC0-4B6A-94B0-5C446C5856F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E081B33-5CC0-4B6A-94B0-5C446C5856F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F530971-D170-490A-8B9B-1F3EB852D8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F530971-D170-490A-8B9B-1F3EB852D8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F530971-D170-490A-8B9B-1F3EB852D8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F530971-D170-490A-8B9B-1F3EB852D8E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
