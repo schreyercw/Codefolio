@@ -17,6 +17,7 @@ var myAppSettingsOptions = new OptionsWrapper<MyAppSettings>(new MyAppSettings()
 configuration.Bind(myAppSettingsOptions.Value);
 var myAppSettings = myAppSettingsOptions.Value;
 
+
 Console.WriteLine(myAppSettings.MySecrets.MyDbConnection);
 Console.WriteLine(configuration["MySecrets:MyDbConnection"]);
 
