@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefolio.DependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefolio.Logging", "Codefolio.Logging\Codefolio.Logging.csproj", "{7800E72C-47FE-4D62-A7EB-5568EEB97DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilogger", "Serilogger\Serilogger.csproj", "{C665D203-CE7E-48C5-A2AD-FD3893C3B8D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefolio.Serilogger", "Serilogger\Codefolio.Serilogger.csproj", "{C665D203-CE7E-48C5-A2AD-FD3893C3B8D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefolio.EntityFrameworkCore", "Codefolio.EntityFrameworkCore\Codefolio.EntityFrameworkCore.csproj", "{6F37710D-E48B-4DAF-BD7A-3056AA2EFE42}"
 EndProject

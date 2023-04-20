@@ -1,14 +1,17 @@
 ﻿using Codefolio.Logging;
 using Microsoft.Extensions.Logging;
 
-Codefolio.Logging.ILogger<MessageSender> logger = new ILogger<MessageSender>();
-MessageSender messageSender = new MessageSender(logger);
-
-Message message = new Message
+class Program
 {
-    From = "sender@example.com",
-    To = "recipient@example.com",
-    Body = "Hello, world!"
-};
+    static void Main(string[] args)
+    {
+        var loggerFactory = LoggerFactory.Create(builder =>
+        {
+            builder.AddConsole();
+        });
 
-messageSender.SendMessage(message);
+        var myLoggerFactory = new MyLoggerFactory(loggerFactory);
+        var myClass = new MyClass(myLoggerFactory);
+        myClass.MyMethod();
+    }
+}

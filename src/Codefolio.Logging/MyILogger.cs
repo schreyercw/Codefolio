@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Codefolio.Logging
 {
-    public interface ILogger
+    public interface MyILogger
     {
         void Info(string message);
         void Warn(string message);
@@ -21,8 +21,10 @@ namespace Codefolio.Logging
         IDisposable BeginScope<TState>(TState state);
     }
 
-    public interface ILogger<out TCatagoryName> : ILogger
+    public interface MyILogger<T>
     {
-        TCatagoryName CategoryName { get; }
+        void LogInformation(string message);
+
+        // Add other methods here as needed
     }
 }
